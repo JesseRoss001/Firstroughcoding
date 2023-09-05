@@ -1,0 +1,134 @@
+/*Styling the leader*/
+
+html{overflow:scroll;}
+
+div{
+  display:flex;
+  
+  align-items:center;
+  justify-content: center;}
+header {z-index: 20;
+  display:flex;
+  flex-direction: column;
+  height:150px;
+  width:100%;
+  color:rgb(36, 20, 20);
+  background-color:rgb(161, 92, 146);
+  font-size:30px;
+  font-family:roboto;
+  font-weight:900; 
+  text-decoration:overline underline white ;
+  align-items: center;
+  justify-content:center;
+  position:fixed;}
+
+h1{
+  text-align:center;
+  font-size: 24px;
+}
+h2{
+  text-align: center;
+  font-size:35px;
+}
+
+h3{text-decoration: underline rgb(161, 92, 146);
+  text-align: center;
+  font-size:30px;
+}
+
+
+h4{text-decoration: underline rgb(161, 92, 146);
+  text-align: center;
+  font-size:25px;
+}
+
+
+
+
+header>p {
+  display:flex;
+  font-size:14px ;
+  position:relative;
+}
+
+
+  
+
+body{
+  border:2px solid black;
+  background-color: rgb(171, 173, 173);
+  overflow:hidden;
+}
+
+ main{
+  border: 2px solid black;
+  background-color: bisque; 
+  height:6000px;
+  top:150px;
+}
+
+p {
+  font-size:16px;
+  line-height:1.5em;
+  text-align:left;
+  border-left:10px;
+  padding:10px 10px 10px 30px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.Help {display:flex;
+position: relative;
+justify-content:space-evenly ;
+}
+
+.h4-heading{
+font-size:17px;
+position: relative;}
+
+
+.links{display:flex;
+flex-direction:column;
+justify-content: center ;
+align-items: center;
+height:90%;
+min-width: 30%;
+}
+
+ul {margin-bottom: 15%;
+position: relative;
+
+
+}
+
+a {font-size:14px;}
+
+img{width:200px;
+min-width: 150px;}
+
+
+.personal-details {display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+
+
+.table-2 {
+width:50%;
+margin-top: 20px;
+}
+
+tr {display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+tr,th,td {text-align:left;
+border:0.5px solid rgb(129, 121, 121);}
+footer {
+position:fixed;
+
+background-color: blueviolet;
+font-size:20px;
+}
+

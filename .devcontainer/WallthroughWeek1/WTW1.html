@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Facts</title>
+  <link href="page1style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
+</head>
+<body >
+
+  <header>
+    <h1>Welcome to CSS Guide </h1>
+    <p>Made by Jesse </p>
+  </header>
+<nav> 
+
+
+  <main>
+  <h2>My Coding Journey So Far </h2> 
+<h3>Introduction </h3> 
+  <p> I started my coding journey, with the 5 day bootcamp from the code institute.After completing this bootcamp I went on to complete 2 youtube tutorials based in HTML and CSS. The object of the tutorials were to replicate a page on a youtube channel.After completion ,on the 21st of August, I started the 16 week fullstack developer program with code institute. <br> 
+  <br>
+   <strong> Read further to see how the journey is going.</strong> 
+
+<div class="Help" style="height:170px; width:100%;" >
+<div class="links" style="position:relative;
+bottom:0px;">
+<div style="height:10%;">
+  <h4 style="margin-top: 10%; margin-bottom: 0%; position:relative; "> Some useful links </h4>
+</div>
+<div style="height:80%;min-width: 150px;">
+    <ul style="list-style-type: none";> 
+      <li> 
+<a href="https://codeinstitute.net" target="_blank" >Code Institute </a>
+      </li>
+      <li> 
+<a href="https://www.w3schools.com/"  target="_blank" > w3schools  </a> 
+      </li>
+      <li>
+<a href="https://openai.com/blog/chatgpt" target="_blank" > ChatGPT </a>
+      </li>
+      <li>  
+<a href="https://www.youtube.com/@SuperSimpleDev" target="_blank"> SuperSimpleDev </a>
+      </li>
+      </ul>
+</div>
+</div>
+
+<div class="images-first-page" >
+<img src=".devcontainer/WallthroughWeek1/Images/HTML5image.png" style="height:100%;">
+</div>
+<div class="personal-details"> 
+<div >
+<h4 style="font-size: 16px; height:20px;margin-top: 0; margin-bottom: 0;"> Personal Details</h4>
+</div>
+<div >
+<p style="font-size: 12px;margin-top:0;margin-bottom: 0;" >Phone Number : +44 7367292269
+<br>
+Email :jesseross001@gmail.com
+<br>
+Address: 4 Ffordd Cerrig Mawr 
+<br> Post Code: LL65 3LU
+</p>
+</div>
+</div>
+
+
+
+</div>
+<div style="position:relative; display: flexbox; flex-direction: column; height:800px;border:2px black solid;justify-content: space-evenly;align-items: center ;"> 
+<h3 style="margin-top: 0;margin-bottom: 0;"> Divs and Spans </h3>
+<br>
+<h4 style="display: block;height:20px;margin-top: 0; margin-bottom: 0;"> Divs </h4>
+<p style="font-size: 20px;margin-top: 0;margin-bottom: 0;"> &lt;div&gt; is a commonly used HTML element for creating containers.&lt;/div&gt; </p>
+<br>
+<p style="font-size: 20px;"> First we will look at Divs placed in a row . This is the default value </p>
+<div style="display:flex; width:100%">
+<div style="background-color: aqua; width:33% ;height:50px; border-radius: 25px;"> </div>
+<div style="background-color: rgb(0, 255, 102); width:33% ;height:50px; border-radius: 25px;"> </div>
+<div style="background-color: rgb(162, 82, 141); width:33% ;height:50px; border-radius: 25px;"> </div>
+</div>
+<div> 
+<p style="font-size: 20px;"> Lets increase the complexity and demonstrate a column div but not only a column div a nested column div.</p>
+ </div>
+
+<div style="display: flex; width:100%;">
+<div style="border:7px solid aqua; width:33% ;height:150px; border-radius: 25px; display:flex; flex-direction: column; width:33%;"> 
+<div style="background-color: rgb(38, 149, 149); width:100% ;height:50px; border-radius: 25px;"> </div>
+<div style="background-color: rgb(0, 255, 102); width:100% ;height:50px; border-radius: 25px;"> </div>
+<div style="background-color: rgb(162, 82, 141); width:100% ;height:50px; border-radius: 25px;"> </div>
+
+</div>
+<div style="border:7px solid  rgb(0, 255, 102); width:33% ;height:150px; border-radius: 25px;display:flex; flex-direction: column-reverse;">
+<div style="background-color: rgb(38, 149, 149); width:100% ;height:50px; border-radius: 25px;"> </div>
+<div style="background-color: rgb(0, 255, 102); width:100% ;height:50px; border-radius: 25px;"> </div>
+<div style="background-color: rgb(162, 82, 141); width:100% ;height:50px; border-radius: 25px;"> </div> </div>
+<div style="border:7px solid rgb(162, 82, 141); width:33% ;height:150px; border-radius: 25px;display:flex; flex-direction: column;">
+<div style="background-color: rgb(38, 149, 149); width:100% ;height:75px; border-radius: 25px;"> </div>
+<div style="background-color: rgb(0, 255, 102); width:100% ;height:75px; border-radius: 25px;"> </div>
+ </div>
+</div>
+ <div style="display: flex; width:100%; flex-direction: column;">
+<div> <h4 style="display: block;height:20px;margin-top: 0; margin-bottom: 0;"> Spans </h4> </div>
+
+<div><p style="font-size: 20px;">&lt;span&gt; is an inline HTML element used for styling specific parts of text.&lt;/span&gt;</p></div>
+</div>
+
+<div> <p style="font-size: 20px; "> <span > <p style="transform: rotate(15deg);font-weight: 900;color:blue; ">  Lets </p> </span> <span style="color:green;font-size: smaller;">have some fun </span> . <span style="background-color:yellowgreen ;"> Making really weird looking text </span> <span style="writing-mode: vertical-rl;"> &nbsp; to highlight </span> <span> the advantages of using span. </span> </span> </p> </div></div>
+
+
+<div style="height:auto; display:flex; flex-direction:column;"> 
+<h4 style="margin-top: 15px;margin-bottom: 0px;"> Tables </h4>
+<table class="table-2">
+<tr>
+<th> Criteria </th>
+<th> HTML </th>
+<th>CSS </th>
+</tr>
+
+<tr> 
+<td>Enjoyment</td>
+<td> high</td>
+<td> medium</td>
+</tr>
+
+<tr>
+<td>Confidence </td>
+<td> high </td>
+<td> high</td>
+</tr>
+</table>
+</div>
+
+
+    <p> 
+      This is a wonderful HTMl page
+    </p>
+  </main>
+  <footer>
+  Copyright &#169;  2023 Jesse
+  </footer>
+</body>
+</html>
